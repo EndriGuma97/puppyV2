@@ -1,6 +1,7 @@
 package puppy
+
 import (
-	"github.com/EndriGuma97/dogoV2"
+	dog "github.com/EndriGuma97/dogoV2"
 )
 
 func Bark() string {
@@ -13,4 +14,8 @@ func Barks() string {
 
 func BarksInt() int {
 	return dog.Dog() + 34
+}
+
+func Barks2() string {
+	return "Woof! Woof! Woof123!"
 }
